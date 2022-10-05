@@ -1,0 +1,94 @@
+.flex__container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 80px;
+    z-index: 50;
+    width: 100vw;
+    overflow: hidden;
+    opacity: 1;
+    max-width: 1080px;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 10px;
+}
+header svg:hover{
+    fill: red;
+    cursor: pointer;
+}
+
+.headerLink {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.headerLink:hover {
+    cursor: pointer;
+}
+
+.headerLeft {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+}
+
+.headerRight * {
+    margin: 10px;
+}
+
+.headerRight button {
+    min-width: 120px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover > svg {
+    fill: red;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h4 {
+    opacity: 0.6;
+}
+
+span {
+    font-size: 16px;
+}
+
+.headerMid {
+    display: flex;
+}
+
+.headerMid a {
+    text-decoration: none;
+}
+
+.headerMid p {
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid sandybrown;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background 0.5s ease-in-out;
+}
+
+.headerMid p:hover {
+    background-color: aqua;
+}

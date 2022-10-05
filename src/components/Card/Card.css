@@ -1,0 +1,76 @@
+.card {
+    border: 1px solid #F8E8F8;
+    padding: 10px;
+    width: 210px;
+    margin: 30px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: -4px 4px 5px 2px olive, 4px -4px 5px 2px olive;
+}
+
+.card p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.card_text {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.card_text button {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    margin-bottom: 0;
+}
+.card_price span {
+    opacity: 0.8;
+    text-transform: uppercase;
+}
+
+button {
+    margin-top: 10px;
+    background: #ffffff;
+    border: 1px solid #f2f2f2;
+    border-radius: 8px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    height: 30px;
+}
+
+.like_unlike_img {
+    display: inline;
+    position: absolute;
+    top: 25%;
+    left: 10px;
+    cursor: pointer;
+}

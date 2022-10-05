@@ -1,0 +1,30 @@
+.wrapper {
+    margin-top: 85px;
+}
+
+.about__describe {
+    margin: 10px;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.about__describe__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.about__describe__text {
+    margin: 0 20px;
+}
+
+.about__describe__text p::first-letter {
+    font-size: 40px;
+    color:darkmagenta;
+}

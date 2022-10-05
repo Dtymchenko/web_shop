@@ -1,0 +1,27 @@
+footer {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid grey;
+    transition: all 0.3s ease-in-out;
+}
+
+.footerSpan {
+    display: none;
+}
+
+.footerCover {
+    padding: 20px;
+}
+
+footer:hover .footerSpan {
+    display: inline;
+} 
+
+footer:hover .footerSpanChange {
+    display: none;
+} 
+
+.footerCover:hover{
+    background-color: green;
+    color: yellow;
+}

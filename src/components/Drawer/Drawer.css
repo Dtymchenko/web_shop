@@ -1,0 +1,137 @@
+.drawer_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.drawer {
+    /* position: relative;
+    float: right; */
+    position: absolute;
+    right: 0;
+    width: 430px;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    margin: -5px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 svg {
+    cursor: pointer;
+}
+
+.fragment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+    height: 100%;
+}
+
+.basket_items {
+    /* flex: 1; */
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.basket_item {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.basket_item_text {
+    max-width: 200px;
+}
+
+.basket_item_remove {
+    cursor: pointer;
+}
+
+svg:hover {
+    fill: rgb(190, 131, 22);
+}
+
+.basket_total_block li {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+
+.basket_total_block div {
+    position: relative;
+    top: -3px;
+    margin: 0 5px;
+    flex: 1;
+    height: 1px;
+    border-bottom: 1px dashed #dfdfdf;
+}
+
+.basket_total_block ul {
+    margin-bottom: 20px;
+}
+
+.basket_total_block button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 55px;
+    background: #9dd558;
+    border-radius: 18px;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    transition: background 0.2s ease-in-out;
+}
+
+.basket_total_block button:hover {
+    background: #c3ec90;
+}
+
+.empty p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.empty img {
+    margin: 30px auto;
+}
+
+.empty button {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    border: 2px solid black;
+    height: 40px;
+    transition: background 0.3s ease-in-out ;
+}
+
+.empty button:hover {
+    background-color: rgb(46, 184, 11);
+}

@@ -1,0 +1,28 @@
+.search__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+    margin-top: 80px;
+}
+
+h1 {
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.search__input__block {
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+}
+
+.search__input__block input {
+    border: none;
+    text-align: center;
+    margin-bottom: 3px;
+    font-size: 15px;    
+}
+
+.search__input__block img {
+    margin: 4px 3px 0 3px;
+}

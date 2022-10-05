@@ -1,0 +1,51 @@
+.wrap {
+    margin-top: 77px;
+    background-color: #f4f4f4;
+    /* min-height: 90vh; */
+}
+
+.contact__totalBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__items {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction:column;
+}
+
+.contact__item {
+    margin:25px;
+    margin-bottom: 5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.contact__item a:hover {
+    color: red;
+}
+
+.contact__item img {
+    margin-right: 10px;
+}
+.contact__item a {
+    color: blue;
+    text-decoration: none;
+}
+
+.contact__item a:visited {
+    color: blue;
+}
+
+h1 {
+    text-align:center;
+    padding:30px;
+    padding-bottom:5px
+}
+
+
+
