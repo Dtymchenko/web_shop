@@ -38,7 +38,7 @@ h2 svg {
     flex-direction: column;
     justify-content: space-between;
     overflow: auto;
-    height: 100%;
+    height: 83vh;
 }
 
 .basket_items {
@@ -134,4 +134,20 @@ svg:hover {
 
 .empty button:hover {
     background-color: rgb(46, 184, 11);
+}
+
+@media (max-width: 360px) {
+    .basket_item {
+        /* width: 300px;
+        justify-content: center; */
+    }
+    .drawer {
+        width: 360px;
+        height: 90vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .drawer {height: 93vh;
+    }
 }

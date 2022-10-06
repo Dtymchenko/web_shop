@@ -47,5 +47,19 @@ h1 {
     padding-bottom:5px
 }
 
+@media (max-width: 768px) {
+    .contact__photo img {
+        width: 300px;
+        margin-left: 10px;
+    }
+}
 
-
+@media (max-width: 360px) {
+    .contact__totalBlock {
+        display: block;
+    }
+    .contact__photo img {
+        margin: auto;
+        display: block;
+    }
+}

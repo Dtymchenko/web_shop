@@ -28,3 +28,24 @@ h1 {
     font-size: 40px;
     color:darkmagenta;
 }
+
+@media (max-width: 768px) {
+    .about__describe__block {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .about__describe__block {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .about__describe__block img {
+        width: 300px;
+        height: auto;
+        margin: 10px;
+    }
+  }

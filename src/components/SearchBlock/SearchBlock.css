@@ -26,3 +26,17 @@ h1 {
 .search__input__block img {
     margin: 4px 3px 0 3px;
 }
+
+@media (max-width: 360px) {
+    input {
+        width: 100px;
+    }
+    .search__input__block {
+        display: flex;
+        justify-content: space-between;
+        height: 25px;
+    }
+    .search__input__block img {
+        margin: 0;
+    }
+}
