@@ -21,19 +21,23 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 1079px) {
+@media (max-width: 360px) {
   .card_container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
   }
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 375px) {
   .card_container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
   }
-} */
+}
 
+@media (max-width: 390px) {
+  .card_container {
+    width: 100%;
+    justify-content: center;
+  }
+}

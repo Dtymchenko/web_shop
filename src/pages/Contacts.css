@@ -63,3 +63,23 @@ h1 {
         display: block;
     }
 }
+
+@media (max-width: 375px) {
+    .contact__totalBlock {
+        display: block;
+    }
+    .contact__photo img {
+        margin: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 390px) {
+    .contact__totalBlock {
+        display: block;
+    }
+    .contact__photo img {
+        margin: auto;
+        display: block;
+    }
+}

@@ -40,3 +40,31 @@ h1 {
         margin: 0;
     }
 }
+
+@media (max-width: 375px) {
+    input {
+        width: 100px;
+    }
+    .search__input__block {
+        display: flex;
+        justify-content: space-between;
+        height: 25px;
+    }
+    .search__input__block img {
+        margin: 0;
+    }
+}
+
+@media (max-width: 390px) {
+    input {
+        width: 100px;
+    }
+    .search__input__block {
+        display: flex;
+        justify-content: space-between;
+        height: 25px;
+    }
+    .search__input__block img {
+        margin: 0;
+    }
+}

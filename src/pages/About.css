@@ -29,13 +29,7 @@ h1 {
     color:darkmagenta;
 }
 
-@media (max-width: 768px) {
-    .about__describe__block {
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-    }
-  }
+
 
   @media (max-width: 360px) {
     .about__describe__block {
@@ -47,5 +41,39 @@ h1 {
         width: 300px;
         height: auto;
         margin: 10px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .about__describe__block {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .about__describe__block img {
+        width: 300px;
+        height: auto;
+        margin: 10px;
+    }
+  }
+
+  @media (max-width: 390px) {
+    .about__describe__block {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .about__describe__block img {
+        width: 300px;
+        height: auto;
+        margin: 10px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .about__describe__block {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
     }
   }

@@ -90,3 +90,19 @@ h5 {
         margin: 10px;
     }
 }
+
+@media (max-width: 375px) {
+    .card {
+        padding: 10px;
+        width: 150px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 390px) {
+    .card {
+        padding: 10px;
+        width: 150px;
+        margin: 10px;
+    }
+}

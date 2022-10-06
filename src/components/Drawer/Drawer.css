@@ -137,12 +137,29 @@ svg:hover {
 }
 
 @media (max-width: 360px) {
-    .basket_item {
-        /* width: 300px;
-        justify-content: center; */
+    .fragment {
+        margin: 0 auto;
     }
     .drawer {
         width: 360px;
+        height: 90vh;
+    }
+    .drawer h2 {
+        margin: 0 0 0 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .drawer {
+        width: 375px;
+        height: 90vh;
+    }
+    
+}
+
+@media (max-width: 390px) {
+    .drawer {
+        width: 390px;
         height: 90vh;
     }
 }
