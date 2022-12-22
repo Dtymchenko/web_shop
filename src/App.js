@@ -34,10 +34,7 @@ function App() {
   const [isLoading, setIsLoading] = React.useState(true);
 
   const onAddToBasket = (obj) => {
-    console.log(basketItems);
-    if (!basketItems.some((item) => item.id === obj.id)) {
-      console.log(!basketItems.some((item) => item.id === obj.id));
-      console.log(obj);
+    if (!basketItems.some((item) => item.title === obj.title)) {
       try {
         axios.post("https://6319e5bb8e51a64d2befd040.mockapi.io/basket", obj);
         setBasketItems((prev) => [...prev, obj]);

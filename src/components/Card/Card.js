@@ -49,7 +49,7 @@ const Card = ({
                   width={20}
                   height={20}
                   src={
-                    basketItems.some((obj) => obj.id === id)
+                    basketItems.some((obj) => obj.title === title)
                       ? "img/done.svg"
                       : "img/plus.svg"
                   }
